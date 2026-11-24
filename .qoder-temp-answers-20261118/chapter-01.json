@@ -1,0 +1,47 @@
+{
+  "questions": [
+    {
+      "answerText": "1.运行速度快：使用DAG执行引擎以支持循环数据流与内存计算\n\n\n2.容易使用：支持使用Scala、Java、Python和R语言进行编程，可以通过Spark Shell进行交互式编程 \n\n3.通用性：Spark提供了完整而强大的技术栈，包括SQL查询、流式计算、机器学习和图算法组件\n\n4.运行模式多样：可运行于独立的集群模式中，可运行于Hadoop中，也可运行于Amazon EC2等云环境中，并且可以访问HDFS、Cassandra、HBase、Hive等多种数据源",
+      "editorAvailable": true,
+      "id": "question540377723",
+      "images": [],
+      "paragraphs": [
+        "1.运行速度快：使用DAG执行引擎以支持循环数据流与内存计算",
+        "2.容易使用：支持使用Scala、Java、Python和R语言进行编程，可以通过Spark Shell进行交互式编程",
+        "3.通用性：Spark提供了完整而强大的技术栈，包括SQL查询、流式计算、机器学习和图算法组件",
+        "4.运行模式多样：可运行于独立的集群模式中，可运行于Hadoop中，也可运行于Amazon EC2等云环境中，并且可以访问HDFS、Cassandra、HBase、Hive等多种数据源"
+      ],
+      "stem": "1. (简答题) Spark是基于内存计算的大数据计算平台，简述Spark的主要特点",
+      "tables": 0
+    },
+    {
+      "answerText": "RDD（弹性分布式数据集）：Resillient Distributed Dataset，是分布式内存的一个抽象概念，提供了一种高度受限的共享内存模型\n\n\nDAG（有向无环图）：Directed Acyclic Graph，反映RDD之间的依赖关系。\n\n阶段（Stage）：是Job的基本调度单位，一个Job会分为多组Task，每组Task被称为Stage，或者也被称为TaskSet，代表了一组关联的、相互之间没有Shuffle依赖关系的任务组成的任务集\n\n分区（Partition）：RDD 的数据被切分成多个数据块，每一块就是一个分区，分区是 Spark 数据分发和任务并行计算的最小单位。\n\n窄依赖：子 RDD 的一个分区只依赖父 RDD 的一个分区，没有 shuffle，计算可以在本地完成。\n\n宽依赖：子 RDD 的一个分区依赖父 RDD 的多个分区，会触发 Shuffle 操作，需要跨节点传输数据。",
+      "editorAvailable": true,
+      "id": "question540377724",
+      "images": [],
+      "paragraphs": [
+        "RDD（弹性分布式数据集）：Resillient Distributed Dataset，是分布式内存的一个抽象概念，提供了一种高度受限的共享内存模型",
+        "DAG（有向无环图）：Directed Acyclic Graph，反映RDD之间的依赖关系。",
+        "阶段（Stage）：是Job的基本调度单位，一个Job会分为多组Task，每组Task被称为Stage，或者也被称为TaskSet，代表了一组关联的、相互之间没有Shuffle依赖关系的任务组成的任务集",
+        "分区（Partition）：RDD 的数据被切分成多个数据块，每一块就是一个分区，分区是 Spark 数据分发和任务并行计算的最小单位。",
+        "窄依赖：子 RDD 的一个分区只依赖父 RDD 的一个分区，没有 shuffle，计算可以在本地完成。",
+        "宽依赖：子 RDD 的一个分区依赖父 RDD 的多个分区，会触发 Shuffle 操作，需要跨节点传输数据。"
+      ],
+      "stem": "2. (简答题) 简述如下Spark的几个主要概念：RDD、DAG、阶段、分区、窄依赖、宽依赖。",
+      "tables": 0
+    },
+    {
+      "answerText": "转换操作，并不会发生真正的计算，只是记录转换的轨迹。\n\n\n动作操作，才会触发从头到尾的真正的计算，并得到结果。",
+      "editorAvailable": true,
+      "id": "question540377725",
+      "images": [],
+      "paragraphs": [
+        "转换操作，并不会发生真正的计算，只是记录转换的轨迹。",
+        "动作操作，才会触发从头到尾的真正的计算，并得到结果。"
+      ],
+      "stem": "3. (简答题) Spark对RDD的操作主要分为行动和转换两种类型，两种操作的区别是什么？",
+      "tables": 0
+    }
+  ],
+  "title": "第十章 Spark"
+}

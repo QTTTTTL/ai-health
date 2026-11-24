@@ -1,0 +1,546 @@
+{
+  "chapters": [
+    {
+      "chapter": 1,
+      "questions": [
+        {
+          "answerHtml": "<p>1. 运营式系统阶段</p><p>数据库为主，数据是业务运营产生，被动记录，比如银行交易、商超收银。特点：数据量小、结构化、时序可控。</p><p><br/></p><p>2. 用户原创内容（UGC）阶段</p><p>互联网Web2.0，用户主动产生，发帖、评论、图片。特点：半结构化、非结构化数据爆发，数据量快速增长。</p><p><br/></p><p>3. 感知式系统阶段</p><p>物联网、传感器自动采集，设备自动产生，不需要人参与。摄像头、传感器、车载设备持续上报。特点：海量、流式、实时数据<br/></p>",
+          "answerText": "1. 运营式系统阶段数据库为主，数据是业务运营产生，被动记录，比如银行交易、商超收银。特点：数据量小、结构化、时序可控。2. 用户原创内容（UGC）阶段互联网Web2.0，用户主动产生，发帖、评论、图片。特点：半结构化、非结构化数据爆发，数据量快速增长。3. 感知式系统阶段物联网、传感器自动采集，设备自动产生，不需要人参与。摄像头、传感器、车载设备持续上报。特点：海量、流式、实时数据",
+          "differsFromSaved": false,
+          "id": "question540377685",
+          "images": [],
+          "number": 1,
+          "source": "saved page",
+          "stem": "1. (简答题) 试述数据产生方式经历的几个阶段。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>大量化、多样化、快速化、信息密度低商业价值高</p><p><br/></p><p>1. Volume（大量）：数据规模巨大，从TB到PB、EB级别。</p><p><br/></p><p>2. Velocity（高速）：数据产生、流转速度快，要求实时处理。</p><p><br/></p><p>3. Variety（多样）：数据类型多，结构化、半结构化、非结构化并存。</p><p><br/></p><p>4. Value（价值密度低）：海量数据里有效信息少，需要挖掘提取价值。</p>",
+          "answerText": "大量化、多样化、快速化、信息密度低商业价值高1. Volume（大量）：数据规模巨大，从TB到PB、EB级别。2. Velocity（高速）：数据产生、流转速度快，要求实时处理。3. Variety（多样）：数据类型多，结构化、半结构化、非结构化并存。4. Value（价值密度低）：海量数据里有效信息少，需要挖掘提取价值。",
+          "differsFromSaved": false,
+          "id": "question540377686",
+          "images": [],
+          "number": 2,
+          "source": "saved page",
+          "stem": "2. (简答题) 试 述大数据的4 个 基本特征",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>全样而非抽样、效率而非精确、相关而非因果</p><p><br/></p><ol style=\"list-style-type: decimal;\" class=\" list-paddingleft-2\"><li><p>全样思维，而非抽样思维</p></li></ol><p>大数据可以采集全部数据，不再依赖抽样；放弃样本局限，接纳整体。</p><p><br/></p><p>2. 容错思维，而非精确思维</p><p>不再追求绝对精确，接受数据混杂、误差，看重宏观趋势。</p><p><br/></p><p>3. 相关思维，而非因果思维</p><p>优先找事物之间的相关关系，不一定非要深挖因果；知道“是什么”，不一定非要知道“为什么”。</p>",
+          "answerText": "全样而非抽样、效率而非精确、相关而非因果全样思维，而非抽样思维大数据可以采集全部数据，不再依赖抽样；放弃样本局限，接纳整体。2. 容错思维，而非精确思维不再追求绝对精确，接受数据混杂、误差，看重宏观趋势。3. 相关思维，而非因果思维优先找事物之间的相关关系，不一定非要深挖因果；知道“是什么”，不一定非要知道“为什么”。",
+          "differsFromSaved": false,
+          "id": "question540377687",
+          "images": [],
+          "number": 3,
+          "source": "saved page",
+          "stem": "3. (简答题) 试述大数据对思维方式的重要影响",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>一、三者区别</p><p>1. 物联网（IoT）：负责数据采集</p><p>物联网是感知终端网络，通过传感器、摄像头、RFID等设备，自动感知、采集物理世界信息，是数据的来源。</p><p>核心：感知、采集、接入物理世界。</p><p>2. 大数据：负责数据挖掘分析</p><p>大数据是数据处理理念与技术体系，针对海量、高速、多样的数据，做存储、清洗、统计、挖掘，从中发现规律、提取价值。</p><p>核心：数据处理、价值挖掘。</p><p>3. 云计算：负责算力与资源底座</p><p>云计算是资源交付模式，把服务器、存储、网络等计算资源虚拟化，按需分配、弹性调度，提供算力、存储、平台服务。</p><p>核心：提供算力、存储资源，是基础设施。</p><p>二、三者联系</p><p>云计算为大数据提供技术基础，大数据为云计算提供用武之地；<br/>物联网是大数据的重要来源，大数据为物联网数据分析提供支撑；<br/>云计算为物联网海量数据提供存储能力，物联网为云计算提供广阔的应用空间</p>",
+          "answerText": "一、三者区别1. 物联网（IoT）：负责数据采集物联网是感知终端网络，通过传感器、摄像头、RFID等设备，自动感知、采集物理世界信息，是数据的来源。核心：感知、采集、接入物理世界。2. 大数据：负责数据挖掘分析大数据是数据处理理念与技术体系，针对海量、高速、多样的数据，做存储、清洗、统计、挖掘，从中发现规律、提取价值。核心：数据处理、价值挖掘。3. 云计算：负责算力与资源底座云计算是资源交付模式，把服务器、存储、网络等计算资源虚拟化，按需分配、弹性调度，提供算力、存储、平台服务。核心：提供算力、存储资源，是基础设施。二、三者联系云计算为大数据提供技术基础，大数据为云计算提供用武之地；物联网是大数据的重要来源，大数据为物联网数据分析提供支撑；云计算为物联网海量数据提供存储能力，物联网为云计算提供广阔的应用空间",
+          "differsFromSaved": false,
+          "id": "question540377688",
+          "images": [],
+          "number": 4,
+          "source": "saved page",
+          "stem": "4. (简答题) 详细阐述大数据、 云计 算和物联网 三 者之间的区别与联系",
+          "tables": 0
+        }
+      ],
+      "title": "第一章 大数据概述"
+    },
+    {
+      "chapter": 2,
+      "questions": [
+        {
+          "answerHtml": "<p><img class=\"ans-ued-img\" src=\"https://p.cldisk.com/star4/e2d886e430a01a444942e946ff7e91b9/origin.jpg\"/></p><p><br/></p>",
+          "answerText": "",
+          "differsFromSaved": false,
+          "id": "question540377689",
+          "images": [
+            {
+              "alt": "",
+              "src": "https://p.cldisk.com/star4/e2d886e430a01a444942e946ff7e91b9/origin.jpg"
+            }
+          ],
+          "number": 1,
+          "source": "saved page",
+          "stem": "1. (简答题) 试述Hadoop 和谷歌的MapReduce、GFS等技术之间的关系。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p><img class=\"ans-ued-img\" src=\"https://p.cldisk.com/star4/803b688bb38a091853b11b6dd7fe5f54/origin.jpg\"/></p><p><br/></p>",
+          "answerText": "",
+          "differsFromSaved": false,
+          "id": "question540377690",
+          "images": [
+            {
+              "alt": "",
+              "src": "https://p.cldisk.com/star4/803b688bb38a091853b11b6dd7fe5f54/origin.jpg"
+            }
+          ],
+          "number": 2,
+          "source": "saved page",
+          "stem": "2. (简答题) 试述Hadoop具有的特性。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p><img class=\"ans-ued-img\" src=\"https://p.cldisk.com/star4/a36d71a6648a53ea0734635bfc8d5fbd/origin.jpg\"/></p><p><br/></p>",
+          "answerText": "",
+          "differsFromSaved": false,
+          "id": "question540377691",
+          "images": [
+            {
+              "alt": "",
+              "src": "https://p.cldisk.com/star4/a36d71a6648a53ea0734635bfc8d5fbd/origin.jpg"
+            }
+          ],
+          "number": 3,
+          "source": "saved page",
+          "stem": "3. (简答题) 试列举单机模式和伪分布式模式的异同点。",
+          "tables": 0
+        }
+      ],
+      "title": "第二章 大数据处理架构Hadoop"
+    },
+    {
+      "chapter": 3,
+      "questions": [
+        {
+          "answerHtml": "<p>1. 分块存储：大文件切为数据块，分布到多节点；</p><p>2. 元数据与数据分离：元数据服务独立，数据节点只存数据；</p><p>3. 数据副本分散在不同节点；</p><p>4. 横向添加存储节点（DataNode）扩容；</p><p>5. 数据均衡，自动迁移块到新节点；</p><p>6. 解耦元数据与数据流，客户端直连数据节点读写。</p>",
+          "answerText": "1. 分块存储：大文件切为数据块，分布到多节点；2. 元数据与数据分离：元数据服务独立，数据节点只存数据；3. 数据副本分散在不同节点；4. 横向添加存储节点（DataNode）扩容；5. 数据均衡，自动迁移块到新节点；6. 解耦元数据与数据流，客户端直连数据节点读写。",
+          "differsFromSaved": false,
+          "id": "question540377692",
+          "images": [],
+          "number": 1,
+          "source": "saved page",
+          "stem": "1. (简答题) 分布式文件系统是如何实现较高水平扩展的?",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>名称节点（NameNode）：管理文件系统命名空间，维护文件、目录与数据块映射；接收 DataNode 心跳；分配块、响应客户端读写请求；保存元数据。</p><p>数据节点（DataNode）：实际存储数据块；执行块读写、副本复制；定期上报块信息与心跳；配合做数据均衡与故障恢复。</p><p><br/></p>",
+          "answerText": "名称节点（NameNode）：管理文件系统命名空间，维护文件、目录与数据块映射；接收 DataNode 心跳；分配块、响应客户端读写请求；保存元数据。数据节点（DataNode）：实际存储数据块；执行块读写、副本复制；定期上报块信息与心跳；配合做数据均衡与故障恢复。",
+          "differsFromSaved": false,
+          "id": "question540377693",
+          "images": [],
+          "number": 2,
+          "source": "saved page",
+          "stem": "2. (简答题) 试述HDFS中的名称节点和数据节点的具体功能。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "",
+          "answerText": "",
+          "differsFromSaved": false,
+          "id": "question540377694",
+          "images": [],
+          "number": 3,
+          "source": "saved page",
+          "stem": "3. (简答题) HDFS只设置唯一一个名称节点，在简化系统设计的同时也带来了一些明显的局限性，请阐述局限性具体表现在哪些方面。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "",
+          "answerText": "",
+          "differsFromSaved": false,
+          "id": "question540377695",
+          "images": [],
+          "number": 4,
+          "source": "saved page",
+          "stem": "4. (简答题) 试述HDFS的冗余数据保存策略。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "",
+          "answerText": "",
+          "differsFromSaved": false,
+          "id": "question540377696",
+          "images": [],
+          "number": 5,
+          "source": "saved page",
+          "stem": "5. (简答题) 试述HDFS是如何检测错误发生以及如何进行自动恢复的。",
+          "tables": 0
+        }
+      ],
+      "title": "第三章 分布式文件系统HDFS"
+    },
+    {
+      "chapter": 4,
+      "questions": [
+        {
+          "answerHtml": "<p>（1）数据类型：关系数据库采用关系模型，具有丰富的数据类型和存储方式，HBase则采用了更加简单的数据模型，它把数据存储为未经解释的字符串</p><p>（2）数据操作：关系数据库中包含了丰富的操作，其中会涉及复杂的多表连接。HBase操作则不存在复杂的表与表之间的关系，只有简单的插入、查询、删除、清空等，因为HBase在设计上就避免了复杂的表和表之间的关系</p><p>（3）存储模式：关系数据库是基于行模式存储的。HBase是基于列存储的，每个列族都由几个文件保存，不同列族的文件是分离的<br/></p><p>（4）数据索引：关系数据库通常可以针对不同列构建复杂的多个索引，以提高数据访问性能。HBase只有一个索引——行键，通过巧妙的设计，HBase中的所有访问方法，或者通过行键访问，或者通过行键扫描，从而使得整个系统不会慢下来</p><p>（5）数据维护：在关系数据库中，更新操作会用最新的当前值去替换记录中原来的旧值，旧值被覆盖后就不会存在。而在HBase中执行更新操作时，并不会删除数据旧的版本，而是生成一个新的版本，旧有的版本仍然保留</p><p>（6）可伸缩性：关系数据库很难实现横向扩展，纵向扩展的空间也比较有限。相反，HBase和BigTable这些分布式数据库就是为了实现灵活的水平扩展而开发的，能够轻易地通过在集群中增加或者减少硬件数量来实现性能的伸缩</p>",
+          "answerText": "（1）数据类型：关系数据库采用关系模型，具有丰富的数据类型和存储方式，HBase则采用了更加简单的数据模型，它把数据存储为未经解释的字符串（2）数据操作：关系数据库中包含了丰富的操作，其中会涉及复杂的多表连接。HBase操作则不存在复杂的表与表之间的关系，只有简单的插入、查询、删除、清空等，因为HBase在设计上就避免了复杂的表和表之间的关系（3）存储模式：关系数据库是基于行模式存储的。HBase是基于列存储的，每个列族都由几个文件保存，不同列族的文件是分离的（4）数据索引：关系数据库通常可以针对不同列构建复杂的多个索引，以提高数据访问性能。HBase只有一个索引——行键，通过巧妙的设计，HBase中的所有访问方法，或者通过行键访问，或者通过行键扫描，从而使得整个系统不会慢下来（5）数据维护：在关系数据库中，更新操作会用最新的当前值去替换记录中原来的旧值，旧值被覆盖后就不会存在。而在HBase中执行更新操作时，并不会删除数据旧的版本，而是生成一个新的版本，旧有的版本仍然保留（6）可伸缩性：关系数据库很难实现横向扩展，纵向扩展的空间也比较有限。相反，HBase和BigTable这些分布式数据库就是为了实现灵活的水平扩展而开发的，能够轻易地通过在集群中增加或者减少硬件数量来实现性能的伸缩",
+          "differsFromSaved": false,
+          "id": "question540377697",
+          "images": [],
+          "number": 1,
+          "source": "saved page",
+          "stem": "1. (简答题) 请阐述HBase和传统关系数据库的区别。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>表：HBase采用表来组织数据，表由行和列组成，列划分为若干个列族</p><p>行：每个HBase表都由若干行组成，每个行由行键（row key）来标识。</p><p>列族：一个HBase表被分组成许多“列族”（Column Family）的集合，它是基本的访问控制单元&nbsp;</p><p>列限定符：列族里的数据通过列限定符（或列）来定位&nbsp;</p><p>时间戳：每个单元格都保存着同一份数据的多个版本，这些版本采用时间戳进行索引</p>",
+          "answerText": "表：HBase采用表来组织数据，表由行和列组成，列划分为若干个列族行：每个HBase表都由若干行组成，每个行由行键（row key）来标识。列族：一个HBase表被分组成许多“列族”（Column Family）的集合，它是基本的访问控制单元 列限定符：列族里的数据通过列限定符（或列）来定位 时间戳：每个单元格都保存着同一份数据的多个版本，这些版本采用时间戳进行索引",
+          "differsFromSaved": false,
+          "id": "question540377698",
+          "images": [],
+          "number": 2,
+          "source": "saved page",
+          "stem": "2. (简答题) 分别解释HBase中行键、列族、列限定符和时间戳的概念。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p><img class=\"ans-ued-img\" src=\"https://p.cldisk.com/star4/32ecc110e58fe23a60283d73e186208d/origin.png\"/></p><p><br/></p>",
+          "answerText": "",
+          "differsFromSaved": false,
+          "id": "question540377699",
+          "images": [
+            {
+              "alt": "",
+              "src": "https://p.cldisk.com/star4/32ecc110e58fe23a60283d73e186208d/origin.png"
+            }
+          ],
+          "number": 3,
+          "source": "saved page",
+          "stem": "3. (简答题) 试述HBase的三层结构中各层次的名称和作用。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>HBase的实现包括三个主要的功能组件：</p><p>（1）库函数：链接到每个客户端</p><p>（2）一个Master主服务器</p><p>（3）许多个Region服务器</p><p>主服务器Master负责管理和维护HBase表的分区信息，维护Region服务器列表，分配Region，负载均衡</p><p>Region服务器负责存储和维护分配给自己的Region，处理来自客户端的读写请求</p><p>客户端并不是直接从Master主服务器上读取数据，而是在获得Region的存储位置信息后，直接从Region服务器上读取数据</p><p>客户端并不依赖Master，而是通过Zookeeper来获得Region位置信息，大多数客户端甚至从来不和Master通信，这种设计方式使得Master负载很小<br/></p>",
+          "answerText": "HBase的实现包括三个主要的功能组件：（1）库函数：链接到每个客户端（2）一个Master主服务器（3）许多个Region服务器主服务器Master负责管理和维护HBase表的分区信息，维护Region服务器列表，分配Region，负载均衡Region服务器负责存储和维护分配给自己的Region，处理来自客户端的读写请求客户端并不是直接从Master主服务器上读取数据，而是在获得Region的存储位置信息后，直接从Region服务器上读取数据客户端并不依赖Master，而是通过Zookeeper来获得Region位置信息，大多数客户端甚至从来不和Master通信，这种设计方式使得Master负载很小",
+          "differsFromSaved": false,
+          "id": "question540377700",
+          "images": [],
+          "number": 4,
+          "source": "saved page",
+          "stem": "4. (简答题) 试述HBase各功能组件及其作用。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>1.客户端客户端包含访问HBase的接口，同时在缓存中维护着已经访问过的Region位置信息，用来加快后续数据访问过程</p><p>2.Zookeeper服务器&nbsp;</p><p>ZooKeeper会实时监控每个Region服务器的状态并通知Master服务器。 Zookeeper还可以帮助选举出一个Master作为集群的总管，并保证在任何时刻总有唯一一个Master在运行，这就避免了Master的“单点失效”问题。Zookeeper服务器中保存了-ROOT-表的地址和Master服务器的地址。 Zookeeper服务器中还存储了Hbase的模式，包括Hbase里有哪些表，每个表有哪些列族。</p><p>3.Master 主服务器</p><p>Master主要负责表和Region的管理工作： 管理用户对表的增加、删除、修改、查询等操作 实现不同Region服务器之间的负载均衡 在Region分裂或合并后，负责重新调整Region的分布 对发生故障失效的Region服务器上的Region进行迁移</p><p>4.Region服务器&nbsp;</p><p>Region服务器是HBase中最核心的模块，负责维护分配给自己的Region，并响应用户的读写请求</p>",
+          "answerText": "1.客户端客户端包含访问HBase的接口，同时在缓存中维护着已经访问过的Region位置信息，用来加快后续数据访问过程2.Zookeeper服务器 ZooKeeper会实时监控每个Region服务器的状态并通知Master服务器。 Zookeeper还可以帮助选举出一个Master作为集群的总管，并保证在任何时刻总有唯一一个Master在运行，这就避免了Master的“单点失效”问题。Zookeeper服务器中保存了-ROOT-表的地址和Master服务器的地址。 Zookeeper服务器中还存储了Hbase的模式，包括Hbase里有哪些表，每个表有哪些列族。3.Master 主服务器Master主要负责表和Region的管理工作： 管理用户对表的增加、删除、修改、查询等操作 实现不同Region服务器之间的负载均衡 在Region分裂或合并后，负责重新调整Region的分布 对发生故障失效的Region服务器上的Region进行迁移4.Region服务器 Region服务器是HBase中最核心的模块，负责维护分配给自己的Region，并响应用户的读写请求",
+          "differsFromSaved": false,
+          "id": "question540377701",
+          "images": [],
+          "number": 5,
+          "source": "saved page",
+          "stem": "5. (简答题) 试述HBase系统基本架构及其每个组成部分的作用。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>用户写入数据时，被分配到相应Region服务器去执行</p><p>用户数据首先被写入到MemStore和Hlog中</p><p>只有当操作写入Hlog之后，commit()调用才会将其返回给客户端</p><p>当用户读取数据时，Region服务器会首先访问MemStore缓存，如果找不到，再去磁盘上面的StoreFile中寻找<br/></p>",
+          "answerText": "用户写入数据时，被分配到相应Region服务器去执行用户数据首先被写入到MemStore和Hlog中只有当操作写入Hlog之后，commit()调用才会将其返回给客户端当用户读取数据时，Region服务器会首先访问MemStore缓存，如果找不到，再去磁盘上面的StoreFile中寻找",
+          "differsFromSaved": false,
+          "id": "question540377702",
+          "images": [],
+          "number": 6,
+          "source": "saved page",
+          "stem": "6. (简答题) 请阐述Region服务器向HDFS中读写数据的基本原理。",
+          "tables": 0
+        }
+      ],
+      "title": "第四章 分布式数据库 HBase"
+    },
+    {
+      "chapter": 5,
+      "questions": [
+        {
+          "answerHtml": "<p>1.键值数据库（Key-Value）<br/></p><p>结构：键（Key）唯一，对应一个值（Value），Value 可以是字符串、对象等，类似大哈希表。</p><p>特点：读写极快、简单；不支持复杂查询。</p><p>代表：Redis、DynamoDB。</p><p><br/></p><p>2.列族数据库（Column-Family）</p><p>结构：按列族组织，一行包含多个列族，一个列族下包含多列，列可以动态增删。</p><p>特点：适合海量数据、分布式存储，面向大数据分析。</p><p>代表：HBase、Cassandra。</p><p><br/></p><p>3.文档数据库（Document）</p><p>结构：存储文档（JSON/BSON 格式），一个文档就是一条记录，文档内部结构灵活，不同文档字段可以不一样。</p><p>特点：Schema 灵活，支持文档内查询。</p><p>代表：MongoDB。</p><p><br/></p><p>4.图数据库（Graph）</p><p>结构：由顶点（节点）和边（关系）组成，重点存储实体之间的关联关系。</p><p>特点：擅长关系深度遍历，适合复杂关系查询。</p><p>代表：Neo4j。</p>",
+          "answerText": "1.键值数据库（Key-Value）结构：键（Key）唯一，对应一个值（Value），Value 可以是字符串、对象等，类似大哈希表。特点：读写极快、简单；不支持复杂查询。代表：Redis、DynamoDB。2.列族数据库（Column-Family）结构：按列族组织，一行包含多个列族，一个列族下包含多列，列可以动态增删。特点：适合海量数据、分布式存储，面向大数据分析。代表：HBase、Cassandra。3.文档数据库（Document）结构：存储文档（JSON/BSON 格式），一个文档就是一条记录，文档内部结构灵活，不同文档字段可以不一样。特点：Schema 灵活，支持文档内查询。代表：MongoDB。4.图数据库（Graph）结构：由顶点（节点）和边（关系）组成，重点存储实体之间的关联关系。特点：擅长关系深度遍历，适合复杂关系查询。代表：Neo4j。",
+          "differsFromSaved": false,
+          "id": "question540377703",
+          "images": [],
+          "number": 1,
+          "source": "saved page",
+          "stem": "1. (简答题) 试述NoSQL数据库的四大类型。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>CAP 理论指出，分布式系统无法同时满足一致性（Consistency）、可用性（Availability）、分区容错性（Partition Tolerance）三个特性，最多只能同时满足其中两项。<br/></p><p><br/></p><p>1. 一致性（Consistency）：分布式集群中，所有节点在同一时刻看到的数据是完全相同的。任意节点的数据更新后，其他节点都能读到最新数据。</p><p>2. 可用性（Availability）：系统收到用户请求后，总能给出响应，不会出现请求失败，响应不一定是最新数据。</p><p>3. 分区容错性（Partition Tolerance）：网络发生分区（节点之间通信中断、消息丢失）时，整个系统依然可以继续正常工作。</p><p><br/></p><p>在分布式环境下，网络分区是客观存在、不可避免的，因此分区容错性一般必须保证，系统只能在一致性和可用性之间做取舍：CP 优先保证一致性，牺牲可用性；AP 优先保证可用性，牺牲强一致性。</p>",
+          "answerText": "CAP 理论指出，分布式系统无法同时满足一致性（Consistency）、可用性（Availability）、分区容错性（Partition Tolerance）三个特性，最多只能同时满足其中两项。1. 一致性（Consistency）：分布式集群中，所有节点在同一时刻看到的数据是完全相同的。任意节点的数据更新后，其他节点都能读到最新数据。2. 可用性（Availability）：系统收到用户请求后，总能给出响应，不会出现请求失败，响应不一定是最新数据。3. 分区容错性（Partition Tolerance）：网络发生分区（节点之间通信中断、消息丢失）时，整个系统依然可以继续正常工作。在分布式环境下，网络分区是客观存在、不可避免的，因此分区容错性一般必须保证，系统只能在一致性和可用性之间做取舍：CP 优先保证一致性，牺牲可用性；AP 优先保证可用性，牺牲强一致性。",
+          "differsFromSaved": false,
+          "id": "question540377704",
+          "images": [],
+          "number": 2,
+          "source": "saved page",
+          "stem": "2. (简答题) 试述CAP理论的具体含义。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>一个数据库事务具有ACID四性：<br/></p><p>A（Atomicity）：原子性，是指事务必须是原子工作单元，对于其数据修改，要么全都执行，要么全都不执行</p><p>C（Consistency）：一致性，是指事务在完成时，必须使所有的数据都保持一致状态</p><p>I（Isolation）：隔离性，是指由并发事务所做的修改必须与任何其它并发事务所做的修改隔离</p><p>D（Durability）：持久性，是指事务完成之后，它对于系统的影响是永久性的，该修改即使出现致命的系统故障也将一直保持</p>",
+          "answerText": "一个数据库事务具有ACID四性：A（Atomicity）：原子性，是指事务必须是原子工作单元，对于其数据修改，要么全都执行，要么全都不执行C（Consistency）：一致性，是指事务在完成时，必须使所有的数据都保持一致状态I（Isolation）：隔离性，是指由并发事务所做的修改必须与任何其它并发事务所做的修改隔离D（Durability）：持久性，是指事务完成之后，它对于系统的影响是永久性的，该修改即使出现致命的系统故障也将一直保持",
+          "differsFromSaved": false,
+          "id": "question540377705",
+          "images": [],
+          "number": 3,
+          "source": "saved page",
+          "stem": "3. (简答题) 试述数据库的事务ACID四性的含义。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>BASE理论是对CAP理论的延伸，核心思想是放弃强一致性，通过牺牲强一致换取高可用，由基本可用、软状态、最终一致性三部分组成。<br/></p><p>1. 基本可用（Basically Available）：系统出现故障时，允许损失部分功能，保证核心功能可用，不会整体瘫痪。比如响应延迟增加、部分非核心功能不可用。</p><p>2. 软状态（Soft State）：允许系统中的数据存在中间状态，节点数据副本不需要时刻保持一致，状态可以在一段时间内同步。</p><p>3. 最终一致性（Eventually Consistent）：系统不会一直保持强一致，经过一段时间的数据同步之后，所有副本的数据最终能够达到一致状态，在同步完成前，可能读到旧数据。</p><p><br/></p><p>BASE面向高可用的分布式场景，是NoSQL数据库常用的设计思想。</p>",
+          "answerText": "BASE理论是对CAP理论的延伸，核心思想是放弃强一致性，通过牺牲强一致换取高可用，由基本可用、软状态、最终一致性三部分组成。1. 基本可用（Basically Available）：系统出现故障时，允许损失部分功能，保证核心功能可用，不会整体瘫痪。比如响应延迟增加、部分非核心功能不可用。2. 软状态（Soft State）：允许系统中的数据存在中间状态，节点数据副本不需要时刻保持一致，状态可以在一段时间内同步。3. 最终一致性（Eventually Consistent）：系统不会一直保持强一致，经过一段时间的数据同步之后，所有副本的数据最终能够达到一致状态，在同步完成前，可能读到旧数据。BASE面向高可用的分布式场景，是NoSQL数据库常用的设计思想。",
+          "differsFromSaved": false,
+          "id": "question540377706",
+          "images": [],
+          "number": 4,
+          "source": "saved page",
+          "stem": "4. (简答题) 试述BASE的具体含义。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>一致性的类型包括强一致性和弱一致性，二者的主要区别在于高并发的数据访问操作下，后续操作是否能够获取最新的数据。对于强一致性而言，当执行完一次更新操作后，后续的其他读操作就可以保证读到更新后的最新数据；反之，如果不能保证后续访问读到的都是更新后的最新数据，那么就是弱一致性。而最终一致性只不过是弱一致性的一种特例，允许后续的访问操作可以暂时读不到更新后的数据，但是经过一段时间之后，必须最终读到更新后的数据。<br/></p><p>&nbsp; &nbsp; 最常见的实现最终一致性的系统是DNS（域名系统）。一个域名更新操作根据配置的形式被分发出去，并结合有过期机制的缓存；最终所有的客户端可以看到最新的值。</p>",
+          "answerText": "一致性的类型包括强一致性和弱一致性，二者的主要区别在于高并发的数据访问操作下，后续操作是否能够获取最新的数据。对于强一致性而言，当执行完一次更新操作后，后续的其他读操作就可以保证读到更新后的最新数据；反之，如果不能保证后续访问读到的都是更新后的最新数据，那么就是弱一致性。而最终一致性只不过是弱一致性的一种特例，允许后续的访问操作可以暂时读不到更新后的数据，但是经过一段时间之后，必须最终读到更新后的数据。    最常见的实现最终一致性的系统是DNS（域名系统）。一个域名更新操作根据配置的形式被分发出去，并结合有过期机制的缓存；最终所有的客户端可以看到最新的值。",
+          "differsFromSaved": false,
+          "id": "question540377707",
+          "images": [],
+          "number": 5,
+          "source": "saved page",
+          "stem": "5. (简答题) 什么是最终一致性?",
+          "tables": 0
+        }
+      ],
+      "title": "第五章 NoSQL数据库"
+    },
+    {
+      "chapter": 6,
+      "questions": [
+        {
+          "answerHtml": "<p>（1）动态可扩展<br/></p><p>（2）高可用性&nbsp;</p><p>（3）较低的使用代价&nbsp;</p><p>（4）易用性&nbsp;</p><p>（5）高性能&nbsp;</p><p>（6）免维护&nbsp;</p><p>（7）安全</p>",
+          "answerText": "（1）动态可扩展（2）高可用性 （3）较低的使用代价 （4）易用性 （5）高性能 （6）免维护 （7）安全",
+          "differsFromSaved": false,
+          "id": "question540377708",
+          "images": [],
+          "number": 1,
+          "source": "saved page",
+          "stem": "1. (简答题) 云数据库有哪些特性?",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>1. 容灾与故障恢复：采用主从热备机制，ZooKeeper 监控实例状态，主库故障时自动切换，保障服务高可用，故障过程用户无感知。<br/></p><p>2. 读写分离：Proxy 解析 SQL，写请求转发至主库，读请求分发到主库或从库，分担查询压力，实现负载均衡。</p><p>3. 分库分表：支持透明分库分表，Proxy 完成 SQL 改写、路由分发、结果合并，对上层业务屏蔽分片细节，支撑大数据量存储。</p><p>4. 资源管理与隔离：统一管理物理机资源池，限制不同用户实例的 CPU、内存、IO、连接数、QPS，防止用户之间资源抢占，支持动态扩缩容。</p><p>5.数据安全：SSL数据库连接、数据访问IP白名单、记录用户操作日志、SQL拦截</p>",
+          "answerText": "1. 容灾与故障恢复：采用主从热备机制，ZooKeeper 监控实例状态，主库故障时自动切换，保障服务高可用，故障过程用户无感知。2. 读写分离：Proxy 解析 SQL，写请求转发至主库，读请求分发到主库或从库，分担查询压力，实现负载均衡。3. 分库分表：支持透明分库分表，Proxy 完成 SQL 改写、路由分发、结果合并，对上层业务屏蔽分片细节，支撑大数据量存储。4. 资源管理与隔离：统一管理物理机资源池，限制不同用户实例的 CPU、内存、IO、连接数、QPS，防止用户之间资源抢占，支持动态扩缩容。5.数据安全：SSL数据库连接、数据访问IP白名单、记录用户操作日志、SQL拦截",
+          "differsFromSaved": false,
+          "id": "question540377709",
+          "images": [],
+          "number": 2,
+          "source": "saved page",
+          "stem": "2. (简答题) 试述UMP系统的功能。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p><img class=\"ans-ued-img\" src=\"https://p.cldisk.com/star4/cfb5050fbe6fb67e3e63538120ba7837/origin.png\"/></p><p><br/></p>",
+          "answerText": "",
+          "differsFromSaved": false,
+          "id": "question540377710",
+          "images": [
+            {
+              "alt": "",
+              "src": "https://p.cldisk.com/star4/cfb5050fbe6fb67e3e63538120ba7837/origin.png"
+            }
+          ],
+          "number": 3,
+          "source": "saved page",
+          "stem": "3. (简答题) UMP系统采用哪两种方式实现资源隔离?",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>UMP系统设计了多种机制来保证数据安全：<br/></p><p>1.SSL数据库连接：SSL(Secure Sockets Layer)是为网络通信提供安全及数据完整性的一种安全协议，它在传输层对网络连接进行加密。Proxy服务器实现了完整的MySQL客户端/服务器协议，可以与客户端之间建立SSL数据库连接</p><p>2.数据访问IP白名单：可以把允许访问云数据库的IP地址放入“白名单”，只有白名单内的IP地址才能访问，其他IP地址的访问都会被拒绝，从而进一步保证账户安全</p><p>3.记录用户操作日志：用户的所有操作记录都会被记录到日志分析服务器，通过检查用户操作记录，可以发现隐藏的安全漏洞</p><p>4.SQL拦截：Proxy服务器可以根据要求拦截多种类型的SQL语句，比如全表扫描语句“select *”</p>",
+          "answerText": "UMP系统设计了多种机制来保证数据安全：1.SSL数据库连接：SSL(Secure Sockets Layer)是为网络通信提供安全及数据完整性的一种安全协议，它在传输层对网络连接进行加密。Proxy服务器实现了完整的MySQL客户端/服务器协议，可以与客户端之间建立SSL数据库连接2.数据访问IP白名单：可以把允许访问云数据库的IP地址放入“白名单”，只有白名单内的IP地址才能访问，其他IP地址的访问都会被拒绝，从而进一步保证账户安全3.记录用户操作日志：用户的所有操作记录都会被记录到日志分析服务器，通过检查用户操作记录，可以发现隐藏的安全漏洞4.SQL拦截：Proxy服务器可以根据要求拦截多种类型的SQL语句，比如全表扫描语句“select *”",
+          "differsFromSaved": false,
+          "id": "question540377711",
+          "images": [],
+          "number": 4,
+          "source": "saved page",
+          "stem": "4. (简答题) UMP系统如何保障数据安全?",
+          "tables": 0
+        }
+      ],
+      "title": "第六章 云数据库"
+    },
+    {
+      "chapter": 7,
+      "questions": [
+        {
+          "answerHtml": "<p>Hadoop 是一个分布式大数据处理框架，而 MapReduce 是 Hadoop 早期自带的分布式计算组件，二者是整体与组成部分的关系。<br/></p><p>Hadoop 核心包含三大部分：HDFS 分布式文件系统、MapReduce 分布式计算引擎、YARN 资源调度框架。HDFS 负责海量数据的分布式存储，MapReduce 负责对存储在 HDFS 上的数据进行分布式计算，YARN 负责集群资源管理与任务调度。</p><p>MapReduce 是一种编程模型，把计算拆分为 Map 映射阶段和 Reduce 归约阶段，开发人员按照该模型编写程序，提交到 Hadoop 集群运行。</p><p>后续 Hadoop 生态出现 Spark 等计算引擎，MapReduce 只是 Hadoop 支持的计算方式之一，Hadoop 并不等同于 MapReduce。简单来说，Hadoop 是平台，MapReduce 是运行在这个平台之上的分布式计算技术。</p>",
+          "answerText": "Hadoop 是一个分布式大数据处理框架，而 MapReduce 是 Hadoop 早期自带的分布式计算组件，二者是整体与组成部分的关系。Hadoop 核心包含三大部分：HDFS 分布式文件系统、MapReduce 分布式计算引擎、YARN 资源调度框架。HDFS 负责海量数据的分布式存储，MapReduce 负责对存储在 HDFS 上的数据进行分布式计算，YARN 负责集群资源管理与任务调度。MapReduce 是一种编程模型，把计算拆分为 Map 映射阶段和 Reduce 归约阶段，开发人员按照该模型编写程序，提交到 Hadoop 集群运行。后续 Hadoop 生态出现 Spark 等计算引擎，MapReduce 只是 Hadoop 支持的计算方式之一，Hadoop 并不等同于 MapReduce。简单来说，Hadoop 是平台，MapReduce 是运行在这个平台之上的分布式计算技术。",
+          "differsFromSaved": false,
+          "id": "question540377712",
+          "images": [],
+          "number": 1,
+          "source": "saved page",
+          "stem": "1. (简答题) 试述MapReduce 和Hadoop 的关系。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p><img class=\"ans-ued-img\" src=\"https://p.cldisk.com/star4/7582afa56d43c9cd71722448a7e00428/origin.png\"/></p><p><br/></p>",
+          "answerText": "",
+          "differsFromSaved": false,
+          "id": "question540377713",
+          "images": [
+            {
+              "alt": "",
+              "src": "https://p.cldisk.com/star4/7582afa56d43c9cd71722448a7e00428/origin.png"
+            }
+          ],
+          "number": 2,
+          "source": "saved page",
+          "stem": "2. (简答题) MapReduce 计算模型的核心是Map函数和Reduce 函数，试述这两个函数各自的输入、输出以及处理过程。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>Map 端 Shuffle 过程<br/></p><p><br/></p><p>1. 执行 Map 任务，输出键值对，写入环形缓存（默认 100MB），缓存达到溢写阈值（默认 0.8）时触发溢写。</p><p>2. 溢写阶段：先对数据执行分区（默认哈希分区）、排序，可执行 Combine 合并，然后写入本地磁盘，生成多个溢写文件。</p><p>3. Map 任务输出全部完成后，对本地磁盘上同分区的多个溢写文件执行归并，合并成一个有序分区文件保存在本地磁盘。</p><p>4. JobTracker 监控 Map 任务状态，通知对应的 Reduce 任务前来领取该分区的数据。</p><p><br/></p><p>Reduce 端 Shuffle 过程</p><p><br/></p><p>1. 领取数据：Reduce 任务通过 RPC 询问 JobTracker，当 Map 任务完成后，从各个 Map 节点拉取属于自己分区的数据。</p><p>2. 拉取到的数据先放入缓存，缓存空间不足时触发溢写，将数据写到磁盘，生成多个溢写文件。</p><p>3. 对缓存中和磁盘上所有属于该 Reduce 的文件执行归并，得到有序的键值对序列；数据量小的时候可以不溢写磁盘，直接在缓存归并。</p><p>4. 归并完成后的有序数据，交给 Reduce 函数执行计算。</p>",
+          "answerText": "Map 端 Shuffle 过程1. 执行 Map 任务，输出键值对，写入环形缓存（默认 100MB），缓存达到溢写阈值（默认 0.8）时触发溢写。2. 溢写阶段：先对数据执行分区（默认哈希分区）、排序，可执行 Combine 合并，然后写入本地磁盘，生成多个溢写文件。3. Map 任务输出全部完成后，对本地磁盘上同分区的多个溢写文件执行归并，合并成一个有序分区文件保存在本地磁盘。4. JobTracker 监控 Map 任务状态，通知对应的 Reduce 任务前来领取该分区的数据。Reduce 端 Shuffle 过程1. 领取数据：Reduce 任务通过 RPC 询问 JobTracker，当 Map 任务完成后，从各个 Map 节点拉取属于自己分区的数据。2. 拉取到的数据先放入缓存，缓存空间不足时触发溢写，将数据写到磁盘，生成多个溢写文件。3. 对缓存中和磁盘上所有属于该 Reduce 的文件执行归并，得到有序的键值对序列；数据量小的时候可以不溢写磁盘，直接在缓存归并。4. 归并完成后的有序数据，交给 Reduce 函数执行计算。",
+          "differsFromSaved": false,
+          "id": "question540377714",
+          "images": [],
+          "number": 3,
+          "source": "saved page",
+          "stem": "3. (简答题) 分别描述Map端和Reduce端的Shuffle过程(需要包括溢写、归并、“领取”的过程)。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>输入：&lt;行号, &quot;Whatever is worth doing is worth doing well&quot;&gt;<br/></p><p>&nbsp; &nbsp; &nbsp; &nbsp; ↓</p><p>【Map阶段】拆分单词，输出 &lt;单词,1&gt;</p><p>Map输出：</p><p>&lt;Whatever,1&gt;</p><p>&lt;is,1&gt;</p><p>&lt;worth,1&gt;</p><p>&lt;doing,1&gt;</p><p>&lt;is,1&gt;</p><p>&lt;worth,1&gt;</p><p>&lt;doing,1&gt;</p><p>&lt;well,1&gt;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; ↓</p><p>【Shuffle（分区、排序、分组）】相同key分到一组</p><p>分组后：</p><p>&lt;Whatever, [1]&gt;</p><p>&lt;is, [1,1]&gt;</p><p>&lt;worth, [1,1]&gt;</p><p>&lt;doing, [1,1]&gt;</p><p>&lt;well, [1]&gt;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; ↓</p><p>【Reduce阶段】对列表求和</p><p>Reduce输出最终词频：</p><p>&lt;Whatever,1&gt;</p><p>&lt;is,2&gt;</p><p>&lt;worth,2&gt;</p><p>&lt;doing,2&gt;</p><p>&lt;well,1&gt;</p>",
+          "answerText": "输入：<行号, \"Whatever is worth doing is worth doing well\">        ↓【Map阶段】拆分单词，输出 <单词,1>Map输出：<Whatever,1><is,1><worth,1><doing,1><is,1><worth,1><doing,1><well,1>        ↓【Shuffle（分区、排序、分组）】相同key分到一组分组后：<Whatever, [1]><is, [1,1]><worth, [1,1]><doing, [1,1]><well, [1]>        ↓【Reduce阶段】对列表求和Reduce输出最终词频：<Whatever,1><is,2><worth,2><doing,2><well,1>",
+          "differsFromSaved": false,
+          "id": "question540377715",
+          "images": [],
+          "number": 4,
+          "source": "saved page",
+          "stem": "4. (简答题) 试画出用 MapReduce 对英语子 \"Whatever is worth doing is worth doing well\" 行词频统计的过程。",
+          "tables": 0
+        }
+      ],
+      "title": "第七章 MapReduce"
+    },
+    {
+      "chapter": 8,
+      "questions": [
+        {
+          "answerHtml": "<p>1.单点故障问题：名称节点是 HDFS 的核心，唯一的名称节点发生宕机或者故障时，整个 HDFS 集群将不可用，所有读写访问都会失败，集群服务中断。<br/></p><p>2.集群性能瓶颈：所有元数据操作（文件创建、删除、重命名、查询目录等）都由这一个名称节点处理，元数据访问量较大时，名称节点会成为性能瓶颈，限制集群并发访问能力。</p><p>3.内存容量限制：名称节点需要把全部文件系统元数据加载到内存中，内存大小制约了文件系统能够支持的文件、目录总数，难以无限扩展存储元数据。</p><p>4.系统恢复时间长：名称节点故障后，需要从镜像文件和编辑日志中恢复元数据，文件数量越多，恢复加载元数据耗时越长，长时间无法对外提供服务。</p><p>5.难以实现负载均衡：元数据服务无法分散到多个节点，不能对元数据请求做分布式负载分担。</p>",
+          "answerText": "1.单点故障问题：名称节点是 HDFS 的核心，唯一的名称节点发生宕机或者故障时，整个 HDFS 集群将不可用，所有读写访问都会失败，集群服务中断。2.集群性能瓶颈：所有元数据操作（文件创建、删除、重命名、查询目录等）都由这一个名称节点处理，元数据访问量较大时，名称节点会成为性能瓶颈，限制集群并发访问能力。3.内存容量限制：名称节点需要把全部文件系统元数据加载到内存中，内存大小制约了文件系统能够支持的文件、目录总数，难以无限扩展存储元数据。4.系统恢复时间长：名称节点故障后，需要从镜像文件和编辑日志中恢复元数据，文件数量越多，恢复加载元数据耗时越长，长时间无法对外提供服务。5.难以实现负载均衡：元数据服务无法分散到多个节点，不能对元数据请求做分布式负载分担。",
+          "differsFromSaved": false,
+          "id": "question540377716",
+          "images": [],
+          "number": 1,
+          "source": "saved page",
+          "stem": "1. (简答题) 试述HDFS1.0中只包含一个名称节点会带来哪些问题。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>HDFS HA 的 DataNode 同时和 Active、Standby 两个 NameNode 通信，周期性向二者发送心跳与块报告，同时完成注册；心跳用于汇报存活、接收指令，块报告同步块位置，保证 Standby 节点拥有最新块信息，为故障快速切换做准备。<br/></p>",
+          "answerText": "HDFS HA 的 DataNode 同时和 Active、Standby 两个 NameNode 通信，周期性向二者发送心跳与块报告，同时完成注册；心跳用于汇报存活、接收指令，块报告同步块位置，保证 Standby 节点拥有最新块信息，为故障快速切换做准备。",
+          "differsFromSaved": false,
+          "id": "question540377717",
+          "images": [],
+          "number": 2,
+          "source": "saved page",
+          "stem": "2. (简答题) 请分析HDFSHA架构中数据节点如何和名称节点保持通信。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>（1）HDFS集群扩展性。多个名称节点各自分管一部分目录，使得一个集群可以扩展到更多节点，不再像HDFS1.0中那样由于内存的限制制约文件存储数目</p><p>（2）性能更高效。多个名称节点管理不同的数据，且同时对外提供服务，将为用户提供更高的读写吞吐率</p><p>（3）良好的隔离性。用户可根据需要将不同业务数据交由不同名称节点管理，这样不同业务之间影响很小</p><p>需要注意的，HDFS Federation并不能解决单点故障问题，也就是说，每个名称节点都存在在单点故障问题，需要为每个名称节点部署一个后备名称节点，以应对名称节点挂掉对业务产生的影响<br/></p>",
+          "answerText": "（1）HDFS集群扩展性。多个名称节点各自分管一部分目录，使得一个集群可以扩展到更多节点，不再像HDFS1.0中那样由于内存的限制制约文件存储数目（2）性能更高效。多个名称节点管理不同的数据，且同时对外提供服务，将为用户提供更高的读写吞吐率（3）良好的隔离性。用户可根据需要将不同业务数据交由不同名称节点管理，这样不同业务之间影响很小需要注意的，HDFS Federation并不能解决单点故障问题，也就是说，每个名称节点都存在在单点故障问题，需要为每个名称节点部署一个后备名称节点，以应对名称节点挂掉对业务产生的影响",
+          "differsFromSaved": false,
+          "id": "question540377718",
+          "images": [],
+          "number": 3,
+          "source": "saved page",
+          "stem": "3. (简答题) 请阐述为什么需要HDFS联邦，即它能够解决什么问题。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>（1）存在单点故障<br/></p><p>（2）JobTracker“大包大揽”导致任务过重（任务多时内存开销大，上限4000节点）</p><p>（3）容易出现内存溢出（分配资源只考虑MapReduce任务数，不考虑CPU、内存）</p><p>（4）资源划分不合理（强制划分为slot ，包括Map slot和Reduce slot）</p>",
+          "answerText": "（1）存在单点故障（2）JobTracker“大包大揽”导致任务过重（任务多时内存开销大，上限4000节点）（3）容易出现内存溢出（分配资源只考虑MapReduce任务数，不考虑CPU、内存）（4）资源划分不合理（强制划分为slot ，包括Map slot和Reduce slot）",
+          "differsFromSaved": false,
+          "id": "question540377719",
+          "images": [],
+          "number": 4,
+          "source": "saved page",
+          "stem": "4. (简答题) 请阐述MapReduce 1.0的体系结构中存在的缺陷。",
+          "tables": 0
+        }
+      ],
+      "title": "第八章 Hadoop再探讨"
+    },
+    {
+      "chapter": 9,
+      "questions": [
+        {
+          "answerHtml": "<p>1.用户接口模块：包括CLI、HWI、JDBC、ODBC、Thrift Server等<br/></p><p>&nbsp; &nbsp; &nbsp;CLI是Hive自带的一个命令行界面；</p><p>&nbsp; &nbsp; &nbsp;HWI是Hive的一个简单网页界面，是Hive的Web接口；</p><p>&nbsp; &nbsp; &nbsp;JDBC、ODBC是开放数据库连接接口，很多应用开发都支持，是一种编程访问接口；</p><p>&nbsp; &nbsp; &nbsp;Thrift Server也是一种编程访问接口，基于Thrift架构开发，允许外界通过这个接口实现对Hive仓库的RPC调用。</p><p>2.驱动模块：包括编译器、优化器、执行器等</p><p>&nbsp; &nbsp; &nbsp;所有命令和查询都会进入到驱动模块，通过该模块对输入进行解析编译，对需求的计算进行优化，然后按照指定的步骤进行执行。</p><p>&nbsp; &nbsp; &nbsp;负责把HiveQL语句转换成一系列MapReduce作业。</p><p>3.元数据存储模块（Metastore）：是一个独立的关系型数据库</p><p>&nbsp; &nbsp; &nbsp;通常是与MySQL数据库连接后创建的一个MySQL实例，也可以是Hive自带的derby数据库实例。元数据存储模块中主要保存表模式和其他系统元数据，如表的名称、表的列及其属性、表的分区及其属性、表的属性、表中数据所在位置信息等。</p>",
+          "answerText": "1.用户接口模块：包括CLI、HWI、JDBC、ODBC、Thrift Server等     CLI是Hive自带的一个命令行界面；     HWI是Hive的一个简单网页界面，是Hive的Web接口；     JDBC、ODBC是开放数据库连接接口，很多应用开发都支持，是一种编程访问接口；     Thrift Server也是一种编程访问接口，基于Thrift架构开发，允许外界通过这个接口实现对Hive仓库的RPC调用。2.驱动模块：包括编译器、优化器、执行器等     所有命令和查询都会进入到驱动模块，通过该模块对输入进行解析编译，对需求的计算进行优化，然后按照指定的步骤进行执行。     负责把HiveQL语句转换成一系列MapReduce作业。3.元数据存储模块（Metastore）：是一个独立的关系型数据库     通常是与MySQL数据库连接后创建的一个MySQL实例，也可以是Hive自带的derby数据库实例。元数据存储模块中主要保存表模式和其他系统元数据，如表的名称、表的列及其属性、表的分区及其属性、表的属性、表中数据所在位置信息等。",
+          "differsFromSaved": false,
+          "id": "question540377720",
+          "images": [],
+          "number": 1,
+          "source": "saved page",
+          "stem": "1. (简答题) 请分别对Hive的几个主要组成模块进行介绍",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>1.将若干个hive 实例纳入一个资源池，然后对外提供一个唯一的接口，进行proxy relay。<br/></p><p>2.对于程序开发人员，就把它认为是一台超强“hive&quot;。每次它接收到一个HIVE查询连接后，都会轮询资源池里可用的hive 资源</p>",
+          "answerText": "1.将若干个hive 实例纳入一个资源池，然后对外提供一个唯一的接口，进行proxy relay。2.对于程序开发人员，就把它认为是一台超强“hive\"。每次它接收到一个HIVE查询连接后，都会轮询资源池里可用的hive 资源",
+          "differsFromSaved": false,
+          "id": "question540377721",
+          "images": [],
+          "number": 2,
+          "source": "saved page",
+          "stem": "2. (简答题) 请简述Hive HA的基本原理",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>Impalad是Impala的一个进程<br/></p><p>1.负责协调客户端提交的查询的执行，给其他impalad分配任务以及收集其他impalad的执行结果进行汇总</p><p>2.执行其他impalad给其分配的任务，主要就是对本地HDFS和HBase里的部分数据进行操作</p>",
+          "answerText": "Impalad是Impala的一个进程1.负责协调客户端提交的查询的执行，给其他impalad分配任务以及收集其他impalad的执行结果进行汇总2.执行其他impalad给其分配的任务，主要就是对本地HDFS和HBase里的部分数据进行操作",
+          "differsFromSaved": false,
+          "id": "question540377722",
+          "images": [],
+          "number": 3,
+          "source": "saved page",
+          "stem": "3. (简答题) 请简述Impalad进程的主要作用",
+          "tables": 0
+        }
+      ],
+      "title": "第九章 数据仓库 Hive"
+    },
+    {
+      "chapter": 10,
+      "questions": [
+        {
+          "answerHtml": "<p>1.运行速度快：使用DAG执行引擎以支持循环数据流与内存计算<br></p><p>2.容易使用：支持使用Scala、Java、Python和R语言进行编程，可以通过Spark Shell进行交互式编程&nbsp;</p><p>3.通用性：Spark提供了完整而强大的技术栈，包括SQL查询、流式计算、机器学习和图算法组件</p><p>4.运行模式多样：可运行于独立的集群模式中，可运行于Hadoop中，也可运行于Amazon EC2等云环境中，并且可以访问HDFS、Cassandra、HBase、Hive等多种数据源</p>",
+          "answerText": "1.运行速度快：使用DAG执行引擎以支持循环数据流与内存计算2.容易使用：支持使用Scala、Java、Python和R语言进行编程，可以通过Spark Shell进行交互式编程 3.通用性：Spark提供了完整而强大的技术栈，包括SQL查询、流式计算、机器学习和图算法组件4.运行模式多样：可运行于独立的集群模式中，可运行于Hadoop中，也可运行于Amazon EC2等云环境中，并且可以访问HDFS、Cassandra、HBase、Hive等多种数据源",
+          "differsFromSaved": false,
+          "id": "question540377723",
+          "images": [],
+          "number": 1,
+          "source": "current editor",
+          "stem": "1. (简答题) Spark是基于内存计算的大数据计算平台，简述Spark的主要特点",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>RDD（弹性分布式数据集）：Resillient Distributed Dataset，是分布式内存的一个抽象概念，提供了一种高度受限的共享内存模型<br></p><p>DAG（有向无环图）：Directed Acyclic Graph，反映RDD之间的依赖关系。</p><p>阶段（Stage）：是Job的基本调度单位，一个Job会分为多组Task，每组Task被称为Stage，或者也被称为TaskSet，代表了一组关联的、相互之间没有Shuffle依赖关系的任务组成的任务集</p><p>分区（Partition）：RDD 的数据被切分成多个数据块，每一块就是一个分区，分区是 Spark 数据分发和任务并行计算的最小单位。</p><p>窄依赖：子 RDD 的一个分区只依赖父 RDD 的一个分区，没有 shuffle，计算可以在本地完成。</p><p>宽依赖：子 RDD 的一个分区依赖父 RDD 的多个分区，会触发 Shuffle 操作，需要跨节点传输数据。</p>",
+          "answerText": "RDD（弹性分布式数据集）：Resillient Distributed Dataset，是分布式内存的一个抽象概念，提供了一种高度受限的共享内存模型DAG（有向无环图）：Directed Acyclic Graph，反映RDD之间的依赖关系。阶段（Stage）：是Job的基本调度单位，一个Job会分为多组Task，每组Task被称为Stage，或者也被称为TaskSet，代表了一组关联的、相互之间没有Shuffle依赖关系的任务组成的任务集分区（Partition）：RDD 的数据被切分成多个数据块，每一块就是一个分区，分区是 Spark 数据分发和任务并行计算的最小单位。窄依赖：子 RDD 的一个分区只依赖父 RDD 的一个分区，没有 shuffle，计算可以在本地完成。宽依赖：子 RDD 的一个分区依赖父 RDD 的多个分区，会触发 Shuffle 操作，需要跨节点传输数据。",
+          "differsFromSaved": false,
+          "id": "question540377724",
+          "images": [],
+          "number": 2,
+          "source": "current editor",
+          "stem": "2. (简答题) 简述如下Spark的几个主要概念：RDD、DAG、阶段、分区、窄依赖、宽依赖。",
+          "tables": 0
+        },
+        {
+          "answerHtml": "<p>转换操作，并不会发生真正的计算，只是记录转换的轨迹。<br></p><p>动作操作，才会触发从头到尾的真正的计算，并得到结果。</p>",
+          "answerText": "转换操作，并不会发生真正的计算，只是记录转换的轨迹。动作操作，才会触发从头到尾的真正的计算，并得到结果。",
+          "differsFromSaved": false,
+          "id": "question540377725",
+          "images": [],
+          "number": 3,
+          "source": "current editor",
+          "stem": "3. (简答题) Spark对RDD的操作主要分为行动和转换两种类型，两种操作的区别是什么？",
+          "tables": 0
+        }
+      ],
+      "title": "第十章 Spark"
+    }
+  ],
+  "totalQuestions": 41
+}
