@@ -1,8 +1,10 @@
 <template>
-    <el-aside width="264px">
+    <el-aside  :width="isCollapse?'64px':'264px'">
       <el-menu
         default-active="2"
         class="menu-style"
+        :collapse="isCollapse"
+        :collapse-transition="false"
       >
       <div class="brand">
                 <el-image style="width: 50px; height: 50px; margin-right: 10px;" :src="iconUrl" alt="logo" />
@@ -22,7 +24,13 @@
 </template>
 <script setup>
 import { useRouter } from 'vue-router';
+import { useAdminStore } from '@/stores/admin';
+import { computed } from 'vue';
+
 const iconUrl = new URL('@/assets/images/机器人.png', import.meta.url).href
+
+const isCollapse=computed(()=>useAdminStore().isCollapse)
+
 const router = useRouter();
 const selectMenu = (key) => {
   const currentRoute = router.options.routes[0]
