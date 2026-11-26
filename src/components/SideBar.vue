@@ -32,6 +32,7 @@ const iconUrl = new URL('@/assets/images/机器人.png', import.meta.url).href
 const isCollapse=computed(()=>useAdminStore().isCollapse)
 
 const router = useRouter();
+
 const selectMenu = (key) => {
   const currentRoute = router.options.routes[0]
   router.push(`${currentRoute.path}/${key.index}`);

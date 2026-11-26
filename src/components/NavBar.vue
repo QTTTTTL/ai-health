@@ -25,6 +25,7 @@
 </template>
 <script setup>
 import { useAdminStore } from '@/stores/admin';
+
 const handleCollapse =()=>{
     useAdminStore().toggleCollapse()}
 

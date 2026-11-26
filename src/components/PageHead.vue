@@ -11,6 +11,7 @@ const props = defineProps({ title: {
     type: String,
     default: '页面标题'
 }})
+
 </script>
 <style>
 .page-head {
